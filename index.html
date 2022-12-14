@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Title</title>
+  <link rel="icon" type="image/x-icon" href="...">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+</head>
+
+<body>
+  <main class="my-anim">
+
+    <!--skills-section-->
+<section class="skills container"> 
+  
+  <div><i class="devicon-html5-plain-wordmark colored"></i>
+  <h2>HTML5</h2>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ad quasi maiores est non omnis debitis minus temporibus commodi. Veritatis totam ipsa voluptatum quo alias ipsam inventore temporibus. Beatae, quisquam?</p>
+  </div>
+  
+  <div><i class="devicon-figma-plain colored"></i>
+    <h2>Figma</h2>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ad quasi maiores est non omnis debitis minus temporibus commodi. Veritatis totam ipsa voluptatum quo alias ipsam inventore temporibus. Beatae, quisquam?</p>
+   </div>
+  
+   <div><i class="devicon-css3-plain-wordmark colored"></i>
+    <h2>CSS3</h2>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ad quasi maiores est non omnis debitis minus temporibus commodi. Veritatis totam ipsa voluptatum quo alias ipsam inventore temporibus. Beatae, quisquam?</p>
+   </div>
+
+</section>
+
+
+  </main>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+  <script>
+    gsap.from(".my-anim", {
+      duration: .5,
+      opacity: 0,
+      delay: .2,
+      stagger: .2,
+      force3D: true
+    });
+
+  </script>
+</body>
+
+</html>
